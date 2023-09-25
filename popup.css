@@ -1,0 +1,48 @@
+body {
+  border: none;
+  background-color: #2c3739d9;
+  display: inline-block;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 2px #999;
+}
+
+.btnHabilitar {
+  background-color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.btnHabilitar:hover {
+  background-color: #329735;
+  color: white;
+}
+
+.btnHabilitar:active {
+  box-shadow: 0 0px;
+  transform: translateY(2px);
+}
+
+.btnDesabilitar {
+  background-color: #037ea7;
+}
+
+.btnDesabilitar:hover {
+  background-color: #036c8f;
+  color: white;
+}
+
+.btnDesabilitar:active {
+  box-shadow: 0 0px;
+  transform: translateY(2px);
+}
