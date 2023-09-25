@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "V2 Controller",
+  "version": "1.0",
+  "description": "Uma extensão para habilitar/desabilitar o v2 na session storage do chrome",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+  ]
+}
+  
